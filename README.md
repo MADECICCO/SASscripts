@@ -1,4 +1,4 @@
-# Stream Anaysis Using SAS
+﻿# Stream Anaysis Using SAS
 
 The modules in this repositry are simple examples of stream identification / analysis approaches using D Criterion methods to compare orbits against a reference orbut. All of these examples are implemented in either "Base SAS" (The SAS natural language) and as a workflow using the graphical SAS Studio development tool (the latter providing an example of a workflow).
 
@@ -14,9 +14,8 @@ ukmeteornetwork@gmail.com
 
 |File|Description|
 |----|-----------|
-|D_Criterion_EX1.sas|Simple DSH or DH Stream analysis (Base SAS) |
-|D_Criterion_EX2.sas|Iterative DSH or DH analysis of a single stream (Base SAS) workflow|
-|D_Criterion_EX3.sas|Iterative stream analysis (Base SAS) against a list of streams.  This module implements DH, DSH, and DD|
+|Orbital_Similarity Single.sas|Simple DD / DH / DD Stream analysis (Base SAS) |
+|Orbital_Similarity Iterative.sas|Iterative stream analysis (Base SAS) against a list of streams.  This module implements DH, DSH, and DD|
 |D_Criterion_EX4,sas|Workflow example: Iterative stream analysis (SAS Studio) against a list of streams.  This module implements DH, DSH, and DD|
 |Shower_List.csv|Reference data: Orbital elements of known showers|
 
