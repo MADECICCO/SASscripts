@@ -15,9 +15,10 @@ ukmeteornetwork@gmail.com
 |File|Description|
 |----|-----------|
 |Orbital_Similarity Single.sas|Simple DD / DH / DD Stream analysis (Base SAS) |
-|Orbital_Similarity Iterative.sas|Iterative stream analysis (Base SAS) against a list of streams.  This module implements DH, DSH, and DD|
+|Orbital_Similarity Best Fit.sas|Performs iterative stream analysis (Base SAS).  It compares each orbit against a list of reference streams and assigns a shower according to the lowest D Criterion value.  This module implements DH, DSH, and DD|
+|Orbital_Similarity Multi.sas|Performs an iterative stream analysis (Base SAS).  D values are calculated each reference orbit in turn and plotted (histogram and CDF).  Only meteors where the solar longitude falls within the minimum and maximum solar longitude for the shower are plotted.  This module implements DH, DSH, and DD|
 |D_Criterion_EX4,sas|Workflow example: Iterative stream analysis (SAS Studio) against a list of streams.  This module implements DH, DSH, and DD|
-|Shower_List.csv|Reference data: Orbital elements of known showers|
+|J8.csv|Reference data: Orbital elements of known showers|
 
 # About SAS
 
